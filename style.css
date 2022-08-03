@@ -1,0 +1,219 @@
+body {
+    margin: 0px;
+    font-family: Circular, spotify-circular, Helvetica, sans-serif;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1ed760;
+}
+
+nav {
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main {
+    height: 969px;
+    background-color: rgb(41, 65, 171);
+    background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+    background-size: 175%;
+    background-position: 46% 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    height: 530px;
+    background-color: black;
+}
+
+.nav-item {
+    padding: 28px 17px;
+    font-weight: 700;
+}
+
+.headline {
+    font-size: 156px;
+    font-weight: 900;
+    color: #1ed760;
+    position: relative;
+    left: 225px;
+    padding-bottom: 40px;
+}
+
+.headline-first {
+    position: relative;
+    left: -2.5em;
+}
+
+.sub-headline {
+    color: #1ed760;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+}
+
+.button-area {
+    text-align: center;
+}
+
+.button-style {
+    padding: 14px 32px;
+    background-color: #1ed760;
+    border-radius: 500px;
+    border: none;
+    font-size: inherit;
+    color: #2941ab;
+    font-weight: 700;
+}
+
+.button-style:hover {
+    transform: scale(1.1)
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+.inbox1 {
+    position: relative;
+    right: 135px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h4 {
+    color: #919496;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.logo-img {
+    width: 120px;
+    height: 40px;
+    position: relative;
+    bottom: 7px;
+    top: 10px;
+    right: 20px;
+}
+
+.in-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inbox1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.li-1 {
+    margin-top: 15px;
+}
+
+.ul-1 {
+    list-style: none;
+}
+
+.ul-2 {
+    margin-left: 10px;
+    list-style: none;
+}
+
+.ul-3 {
+    margin-left: 10px;
+    list-style: none;
+}
+
+.ul-1 ul-2 ul-3:hover {
+    color: #1ed760;
+}
+
+.icon {
+    margin-top: 85px;
+    position: relative;
+    left: 140px;
+    bottom: 20px;
+}
+
+.fa-instagram {
+    font-size: 30px;
+}
+
+.fa-twitter {
+    font-size: 30px;
+}
+
+.fa-facebook-f {
+    font-size: 30px;
+}
+
+.icon-list {
+    list-style: none;
+    position: relative;
+    bottom: 20px;
+}
+
+.icon-list-a {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 54px;
+    height: 54px;
+    background-color: #363636;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.inbox2 {
+    position: relative;
+    top: 100px;
+    left: 1010px;
+    color: #919496;
+}
+
+.fa-earth-africa {
+    position: relative;
+    left: 5px;
+}
+
+.inbox3 {
+    position: relative;
+    top: 85px;
+    right: 160px;
+    color: #919496;
+}
+
+.ul-4 {
+    list-style: none;
+    color: #919496;
+}
+
+.li-2 {
+    display: inline-block;
+    padding: 10px;
+}
+
+.li-3 {
+    display: inline-block;
+    position: relative;
+    left: 295px;
+}
+
+.inbox3-end {
+    color: #919496;
+}
